@@ -1,0 +1,27 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="startPage" id="startPage">
+        <div class="text-section" id="textSection">
+            <p class="startText">
+                Get bonuses and make our planet a better place
+            </p>
+            <div class="startButton" onclick="getToTheMenu()">Let's get started!</div>
+        </div>
+
+    </div>
+    <div class="menuPage" id="menuPage"></div>
+
+    <script>
+        function getToTheMenu() {
+            document.getElementById('startPage').style.display = 'none';
+            document.getElementById('menuPage').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
