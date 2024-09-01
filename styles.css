@@ -5,7 +5,7 @@
     right:0;
     bottom:0;
     background-image:url('startPage.png'), linear-gradient(to right, #53D1E0, #054FAE);
-    background-size: contain;
+    background-size: 100% auto;
     background-repeat: no-repeat;
 }
 
@@ -15,9 +15,10 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+    margin: 0 10px;
     grid-template-areas:
-    ". a a ."
-    ". b b .";
+    "a a a a"
+    " b b b b";
 }
 
 .startText {
@@ -28,9 +29,8 @@
     color:#FECCAB;
     text-transform: uppercase;
     font-family: "SUSE", sans-serif;
-    font-size: 50px;
+    font-size: 52px;
     text-align: center;
-    font-face: 52px;
 }
 
 .startButton {
@@ -41,7 +41,7 @@
     align-self: center;
     justify-self: center;
     text-transform: uppercase;
-    font-size:45px;
+    font-size:50px;
     color: #054FAE;
 }
 
