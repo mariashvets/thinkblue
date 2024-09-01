@@ -1,3 +1,6 @@
+body {
+    overflow-x:hidden;
+}
 .startPage {
     position: absolute;
     top:0;
@@ -42,6 +45,7 @@
     justify-self: center;
     text-transform: uppercase;
     font-size:50px;
+    font-weight: bold;
     color: #054FAE;
 }
 
@@ -53,5 +57,6 @@
     bottom:0;
     display: none;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
